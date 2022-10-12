@@ -1,5 +1,10 @@
 # voice-recorder
 
+
+You run First 
+npx cap init [name] [id] --web-dir=dist
+
+
 ## Project setup
 ```
 yarn install
