@@ -23,5 +23,5 @@ app.use("/api", apiRouter);
 app.use("/", webRouter);
 
 app.listen(parseInt(process.env.PORT ?? "8080"), () => {
-  console.log(`⚡️[server]: Server is running at http://localhost:${process.env.PORT}`);
+  console.log(`⚡️[server]: Server is running at http://localhost:${process.env.PORT ?? "8080"}`);
 });
